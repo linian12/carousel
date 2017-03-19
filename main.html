@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+</head>
+<body style="padding:50px">
+	<div class="js-carousel poster-main" data-setting='{ "width":1200,"height":424.8,"posterWidth":600,"posterHeight":424.8,"verticalAlign":"middle","speed":600,"delay":4000,"autoPlay":"true","scale":0.9}'>
+		<div class="poster-btn poster-prev-btn"></div>
+		<ul class="poster-list">
+			<li class="poster-item"><a href="#"><img src="img/1.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/2.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/3.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/4.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/5.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/6.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/7.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/8.jpg" alt=""></a></li>
+			<li class="poster-item"><a href="#"><img src="img/9.jpg" alt=""></a></li>
+		</ul>
+		<div class="poster-btn poster-next-btn"></div>
+		
+	</div>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/carousel.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			Carousel.init($(".js-carousel"));
+		});
+	</script>
+</body>
+</html>
